@@ -1,15 +1,14 @@
-const express = require('express');
+const router = require('express').Router();
 const path = require('path');
-const app = express();
 
 //End point for /notes
-app.get('/notes', (req, res) => {
+router.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/notes.html'));
 }); 
 
 //Wildcard endpoint
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'));
-}); 
+// app.get('*', (req, res) => {
+//     res.sendFile(path.join(__dirname, '../public/index.html'));
+// }); 
 
-module.exports = app;
+module.exports = router;
