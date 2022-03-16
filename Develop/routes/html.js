@@ -8,7 +8,7 @@ router.get('/notes', (req, res) => {
 
 
 // Wildcard endpoint
-app.get('*', (req, res) => {
+router.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
 }); 
 
