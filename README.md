@@ -19,7 +19,7 @@ The note taker app can be used to create and store notes.
 Using the terminal command `npm start`, users can start running the application on the given port (localhost:3001). Once the application has been started, users can enter a note title and text and use the save button to save the note. Eventually, there will be a delete function to delete stored notes. The notes are stored in a json file.
 
 The following link shows the deployed program:
-[Link to Heroku deployed app]( https://emmareimer-note-taker-app.herokuapp.com/)
+[Link to Heroku deployed app](https://emmareimer-note-taker-app.herokuapp.com/)
 
 ## License
 The MIT License
